@@ -1,0 +1,9 @@
+def matchingWords(n):
+    n = n.split()
+    for x in set(n):
+        n.remove(x)
+    n = set(n)
+    n = sorted(n)
+    print(*n)
+
+matchingWords(input())
