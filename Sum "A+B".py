@@ -1,2 +1,2 @@
 def calculator(a, b):
-  print(a + b)
+  return int(a+b)
